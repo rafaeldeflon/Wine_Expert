@@ -11,3 +11,7 @@
 - deploy.py: contain the deployment builded using flask.
 - test_script.py: is a python script to test the API.
 - The remaining files are the data to test the api on the json file and the ML model.
+
+# The Data
+
+- The data used here were found at Kaggle: https://www.kaggle.com/datasets/uciml/red-wine-quality-cortez-et-al-2009/data
