@@ -1,17 +1,19 @@
+# This is a scrip to test the flask API.
+
 import requests
 import json
 
-# URL of the Flask application
+# URL of the Flask application (when the flask app is executed the url is genareted)
 url = 'http://127.0.0.1:5000/predict'
 
-# Load the test data from the JSON file
+# Load the test data from the JSON file (input the path to the json testing file)
 with open('/YOUR_PATH', 'r') as file:
     data = json.load(file)
 
 # Set the headers
 headers = {
     'Content-Type': 'application/json',
-    'User-Agent': 'test-script'  # Adding a User-Agent header
+    'User-Agent': 'test-script'  
 }
 
 # Send a POST request to the Flask application with the test data
